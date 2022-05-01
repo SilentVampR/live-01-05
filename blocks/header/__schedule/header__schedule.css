@@ -1,0 +1,20 @@
+.header__schedule {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 700;
+  writing-mode: vertical-lr;
+  min-width: 60px;
+  transform: rotate(180deg);
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .header__schedule {
+    writing-mode: unset;
+    transform: unset;
+  }
+}

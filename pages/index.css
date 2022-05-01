@@ -1,0 +1,46 @@
+/*VENDOR*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/open-sans.css);
+
+/* PAGE */
+@import url(../blocks/page/page.css);
+/* @import url(../blocks/page/__wrapper/page__wrapper.css); */
+
+/* BUTTONS */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_transparent.css);
+
+/* LOGO */
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_place/header__menu_place_left.css);
+@import url(../blocks/header/__menu/_place/header__menu_place_right.css);
+@import url(../blocks/header/__menu-list/header__menu-list.css);
+@import url(../blocks/header/__menu-link-container/header__menu-link-container.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__mid-container/header__mid-container.css);
+@import url(../blocks/header/__title-container/header__title-container.css);
+@import url(../blocks/header/__pre-title/header__pre-title.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__schedule/header__schedule.css);
+@import url(../blocks/header/__social/header__social.css);
+@import url(../blocks/header/__social-button/header__social-button.css);
+@import url(../blocks/header/__social-button/_type/header__social-button_type_facebook.css);
+@import url(../blocks/header/__social-button/_type/header__social-button_type_instagram.css);
+@import url(../blocks/header/__social-button/_type/header__social-button_type_twitter.css);
+
+/* MAIN */
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__span-accent/footer__span-accent.css);

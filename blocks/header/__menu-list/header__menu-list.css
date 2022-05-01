@@ -1,0 +1,22 @@
+.header__menu-list {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+}
+
+/* @media screen and (max-width: 1280px) {
+  .header__menu-list {
+    grid-template-columns: repeat(4, 120px);
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .header__menu-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 80px);
+  }
+}

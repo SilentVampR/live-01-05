@@ -1,0 +1,9 @@
+.footer__copyright {
+  color: rgba(255,255,255,0.5);
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
+}

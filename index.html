@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Coding 03.04.2022</title>
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <div class="page__wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">home</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">about</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">team</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">booking</a></li>
+          </ul>
+          <a class="logo logo_place_header"></a>
+          <ul class="header__menu-list">
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">menu</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">galerie</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">events</a></li>
+            <li class="header__menu-link-container"><a href="#" class="header__menu-link">contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__mid-container">
+          <p class="header__schedule">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+          <div class="header__title-container">
+            <p class="header__pre-title">RESTAURANT</p>
+            <h1 class="header__title">hungry people</h1>
+            <div class="header__buttons">
+              <button class="button header__button" type="button">BOOK TABLE</button>
+              <button class="button header__button button_type_transparent" type="button">EXPLORE</button>
+            </div>
+          </div>
+          <div class="header__social">
+            <button class="header__social-button header__social-button_type_facebook"></button>
+            <button class="header__social-button header__social-button_type_twitter"></button>
+            <button class="header__social-button header__social-button_type_instagram"></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section section_type_info">
+        <div class="section__container">
+          <div class="section__info">
+            <h3 class="section__title">about us</h3>
+            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+              molestie est a, tempor magna.</p>
+            <p class="section__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+              ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam
+              nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+          <img src="./images/about-img.jpg" alt="Our place design with open fire" class="section__image">
+        </div>
+      </section>
+      <section class="section section_type_info">
+        <h2 class="section__top-title">OUR TEAM</h2>
+        <div class="section__container">
+          <div class="section__info">
+            <h3 class="section__title">MASTER CHEF</h3>
+            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+              molestie est a, tempor magna.</p>
+            <p class="section__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+              ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam
+              nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+          <img src="./images/specialtys-img.jpg" alt="Chief decorates dish" class="section__image">
+        </div>
+      </section>
+      <section class="section section_type_info">
+        <div class="section__container">
+          <div class="section__info">
+            <h3 class="section__title">book a table</h3>
+            <form class="book-a-table">
+              <input type="text" class="book-a-table__input" placeholder="Name">
+              <input type="text" class="book-a-table__input" placeholder="Email">
+              <input type="text" class="book-a-table__input" placeholder="Phone">
+              <select class="book-a-table__input book-a-table___input_type_select">
+                <option selected>People</option>
+              </select>
+              <input type="text" class="book-a-table__input" placeholder="Date (mm/dd)">
+              <select class="book-a-table__input book-a-table___input_type_select">
+                <option selected>Time</option>
+              </select>
+              <button class="button">BOOK NOW</button>
+            </form>
+          </div>
+          <img src="./images/about-2-img.jpg" alt="Clock mechanism" class="section__image">
+        </div>
+        <p class="section__bottom-info">Mon - Fri: <span class="section__text-accent">8PM - 10PM</span>, Sat - Sun:
+          <span class="section__text-accent">8PM - 3AM</span>, Phone: <span class="section__text-accent">+40 729 131
+            637/+40 726 458 782</span>
+        </p>
+      </section>
+      <section class="section section_type_info">
+        <h2 class="section__top-title">specialties</h2>
+        <div class="section__container">
+          <div class="section__info">
+            <h3 class="section__title">chocolate pancakes</h3>
+            <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+              molestie est a, tempor magna.</p>
+            <p class="section__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non
+              ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam
+              nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+          </div>
+
+          <img src="./images/specialtys-2-img.jpg" alt="Chocolate pancakes on dish" class="section__image">
+        </div>
+      </section>
+      <section class="section section_type_price">
+        <h3 class="section__title">DELICIOUS MENU</h3>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+          molestie est a, tempor magna.</p>
+        <nav>
+          <ul class="section__menu">
+            <li class="section__link-container"><a href="#" class="section__link">soupe</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">pizza</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">pasta</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">desert</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">wine</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">beer</a></li>
+            <li class="section__link-container"><a href="#" class="section__link">drinks</a></li>
+          </ul>
+        </nav>
+        <div class="price">
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+          <div class="price__container">
+            <div class="price__main-info">
+              <p class="price__item-name">PIZZA QUATRO STAGGIONI</p>
+              <span class="price__separator"></span>
+              <p class="price__cost">55,68 USD</p>
+            </div>
+            <p class="price__sub-info">Integer ullamcorper neque eu purus euismod</p>
+          </div>
+        </div>
+      </section>
+      <section class="section section_type_info">
+        <h2 class="section__top-title">PRIVATE EVENTS</h2>
+        <div class="section__container section__event-container_type_left">
+          <div class="section__event-container">
+            <h4 class="event__title event__title_type_left">weddings</h4>
+          </div>
+          <div class="section__event-container section__event-container_type_right">
+            <h4 class="event__title event__title_type_right">corporate pzrties</h4>
+          </div>
+        </div>
+      </section>
+      <section class="section section_type_contact">
+        <h3 class="section__title">DELICIOUS MENU</h3>
+        <p class="section__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+          molestie est a, tempor magna.</p>
+        <form class="contact-form">
+          <div class="contact-form__container">
+            <input type="text" class="contact-form__input" placeholder="Name">
+            <input type="text" class="contact-form__input" placeholder="Email">
+            <input type="text" class="contact-form__input" placeholder="Phone">
+            <textarea class="contact-form__textarea" placeholder="Message"></textarea>
+          </div>
+          <div class="contact-form__footer">
+            <div class="contact-form__address">
+              <p class="contact-form__text"><span class="contact-form__icon contact-form__icon_type_location"></span>5th
+                London Boulevard, U.K.</p>
+              <p class="contact-form__text"><span class="contact-form__icon contact-form__icon_type_phone"></span>+40
+                729 131 637/+40 726 458 782</p>
+              <p class="contact-form__text"><span
+                  class="contact-form__icon contact-form__icon_type_email"></span>office@mindblister.com</p>
+            </div>
+            <button class="button">SEND MESSAGE</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; Copyright <span class="footer__span-accent">Mindblister</span> 2019</p>
+    </footer>
+  </div>
+</body>
+
+</html>

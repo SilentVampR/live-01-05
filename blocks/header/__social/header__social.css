@@ -1,0 +1,13 @@
+.header__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__social {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+}
