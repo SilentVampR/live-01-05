@@ -18,3 +18,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 549px) {
+  .header__mid-container {
+    padding: 50px 20px 0;
+  }
+}

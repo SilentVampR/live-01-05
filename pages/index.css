@@ -25,6 +25,8 @@
 @import url(../blocks/header/__menu-list/header__menu-list.css);
 @import url(../blocks/header/__menu-link-container/header__menu-link-container.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__mobile-menu/header__mobile-menu.css);
+@import url(../blocks/header/__mobile-menu-list/header__mobile-menu-list.css);
 @import url(../blocks/header/__mid-container/header__mid-container.css);
 @import url(../blocks/header/__title-container/header__title-container.css);
 @import url(../blocks/header/__pre-title/header__pre-title.css);
