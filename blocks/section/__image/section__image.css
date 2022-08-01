@@ -1,0 +1,6 @@
+.section__image {
+  width: 475px;
+  height: 475px;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 50px 0;
+}

@@ -1,0 +1,17 @@
+.section_type_info-specialties {
+  position: relative;
+  background-image: url(../../../images/specialtys-2-bg.jpg);
+  background-size: contain;
+  z-index: 1;
+}
+
+.section_type_info-specialties::before {
+  content: '';
+  background-color: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
