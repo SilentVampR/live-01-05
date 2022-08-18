@@ -9,6 +9,7 @@
 /* BUTTONS */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_transparent.css);
+@import url(../blocks/button/_type/button_type_book-form.css);
 
 /* LOGO */
 
@@ -58,6 +59,23 @@
 @import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/section/__text/_theme/section__text_theme_dark.css);
 @import url(../blocks/section/__image/section__image.css);
+@import url(../blocks/section/__bottom-info/section__bottom-info.css);
+@import url(../blocks/section/__text-accent/section__text-accent.css);
+
+/* FORM */
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_type/form_type_book-a-table.css);
+@import url(../blocks/form/_type/form_type_contact-form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/_type/form__input_type_select.css);
+@import url(../blocks/form/__input/_type/form__input_type_date.css);
+@import url(../blocks/form/__input/_type/form__input_type_email.css);
+@import url(../blocks/form/__input/_type/form__input_type_message.css);
+@import url(../blocks/form/__input/_type/form__input_type_name.css);
+@import url(../blocks/form/__input/_type/form__input_type_people.css);
+@import url(../blocks/form/__input/_type/form__input_type_phone.css);
+@import url(../blocks/form/__input/_type/form__input_type_time.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
