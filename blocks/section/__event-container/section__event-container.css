@@ -1,0 +1,10 @@
+.section__event-container {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  min-height: 475px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  overflow: hidden;
+}

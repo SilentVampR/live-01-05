@@ -1,0 +1,9 @@
+.address__icon {
+  display: inline-block;
+  background-size: contain;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 0;
+}

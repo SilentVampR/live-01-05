@@ -3,5 +3,6 @@
   font-weight: 700;
   line-height: 28px;
   text-align: center;
-  margin: 0 0 30px;
+  margin: 0 auto 30px;
+  max-width: 600px;
 }

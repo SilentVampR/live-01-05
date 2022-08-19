@@ -52,6 +52,7 @@
 @import url(../blocks/section/_type/section_type_info-with-title.css);
 @import url(../blocks/section/_type/section_type_info-team.css);
 @import url(../blocks/section/_type/section_type_info-specialties.css);
+@import url(../blocks/section/_type/section_type_info-private-events.css);
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__title/_theme/section__title_theme_dark.css);
 @import url(../blocks/section/__subtitle/section__subtitle.css);
@@ -61,6 +62,22 @@
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__bottom-info/section__bottom-info.css);
 @import url(../blocks/section/__text-accent/section__text-accent.css);
+@import url(../blocks/section/__menu/section__menu.css);
+@import url(../blocks/section/__menu-item/section__menu-item.css);
+@import url(../blocks/section/__menu-link/section__menu-link.css);
+@import url(../blocks/price/price.css);
+@import url(../blocks/price/__item/price__item.css);
+@import url(../blocks/price/__main-info/price__main-info.css);
+@import url(../blocks/price/__item-name/price__item-name.css);
+@import url(../blocks/price/__cost/price__cost.css);
+@import url(../blocks/price/__separator/price__separator.css);
+@import url(../blocks/price/__sub-info/price__sub-info.css);
+@import url(../blocks/section/__event-container/section__event-container.css);
+@import url(../blocks/section/__event-container/_type/section__event-container_type_left.css);
+@import url(../blocks/section/__event-container/_type/section__event-container_type_right.css);
+@import url(../blocks/section/__event-title/section__event-title.css);
+@import url(../blocks/section/__event-title/_type/section__event-title_type_left.css);
+@import url(../blocks/section/__event-title/_type/section__event-title_type_right.css);
 
 /* FORM */
 
@@ -76,6 +93,17 @@
 @import url(../blocks/form/__input/_type/form__input_type_people.css);
 @import url(../blocks/form/__input/_type/form__input_type_phone.css);
 @import url(../blocks/form/__input/_type/form__input_type_time.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__footer/form__footer.css);
+
+/* ADDRESS */
+
+@import url(../blocks/address/address.css);
+@import url(../blocks/address/__text/address__text.css);
+@import url(../blocks/address/__icon/address__icon.css);
+@import url(../blocks/address/__icon/_type/address__icon_type_email.css);
+@import url(../blocks/address/__icon/_type/address__icon_type_location.css);
+@import url(../blocks/address/__icon/_type/address__icon_type_phone.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

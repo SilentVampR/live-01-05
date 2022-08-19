@@ -1,3 +1,5 @@
 .price__main-info {
-
+  display: grid;
+  grid-template-columns: max-content minmax(20px, auto) max-content;
+  max-width: 365px;
 }

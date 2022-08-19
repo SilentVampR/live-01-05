@@ -1,0 +1,18 @@
+.section_type_info-private-events {
+  position: relative;
+  background-image: url(../../../images/specialtys-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.section_type_info-private-events::before {
+  content: '';
+  background-color: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

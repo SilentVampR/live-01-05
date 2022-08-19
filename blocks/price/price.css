@@ -1,3 +1,8 @@
 .price {
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+  list-style: none;
+  column-gap: 60px;
+  margin: 0 auto -40px;
 }

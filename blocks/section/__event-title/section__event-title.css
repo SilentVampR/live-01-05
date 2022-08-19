@@ -1,0 +1,15 @@
+.section__event-title {
+  background-color: #000;
+  max-width: 80px;
+  width: 100%;
+  padding: 30px;
+  font-size: 24px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-orientation: sideways;
+  color: #fff;
+  margin: 0;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
